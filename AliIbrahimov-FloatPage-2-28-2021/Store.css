@@ -1,0 +1,189 @@
+body{
+    background-color:darkgrey;
+}
+.first{
+    width: 800px;
+    height: 100px;
+    background-color:dimgray;
+    position: relative;
+    left: 27%;
+   bottom: -218px;
+   border-radius: 10px;
+    
+   
+}
+
+.pic{
+position: fixed;
+top: 1%;
+left: 42%;
+border-radius: 40px;
+
+
+}
+/* .buttons{
+ 
+} */
+
+.but{
+width: 200px;
+height: 80px;
+margin-top: 5px;
+border-radius: 5px;
+background-color:honeydew;
+
+
+
+
+}
+
+
+
+input{
+    border-radius: 10px;
+    width: 180px;
+    height: 40px;
+    background-color:honeydew;
+}
+h1{
+    position: absolute;
+    top: 35%;
+    left:37%;
+}
+
+.lg{
+    width: 400px;
+    height: 500px;
+    background-color:honeydew; 
+    position: absolute;
+    bottom: 5%;
+    left:15%;
+    border-radius: 10px;
+}
+ .lgpic{
+     position: absolute;
+     left: 13%;
+     top: 15%;
+ }
+
+ h3{
+     border: 2px solid black;
+     width: 130px;
+     height: 80px;
+     font-size: 35px;
+     position: absolute;
+     top:80%;
+   
+     
+ }
+ h4{
+   position:absolute;
+   left: 60%;
+   top: 77%;
+    border: 2px solid black;
+    width: 130px;
+    height: 80px;
+    font-size: 35px; 
+ }
+ .magaza{
+     position: absolute;
+     top: -15%;
+     left: 87%;
+     width:40px;
+ }
+
+ .magaza2{
+    position: absolute;
+    top: -15%;
+    left: 105%;
+    width:40px;
+ }
+
+ .airpods{
+    width: 400px;
+    height: 500px;
+    background-color:honeydew; 
+    position: absolute;
+    bottom: 5%;
+    left:38%;
+    border-radius: 10px;
+ }
+ 
+ .ali{
+     position: absolute;
+     left: 20%;
+     top:12%;
+ }
+h5{
+    
+     font-size: 35px; 
+     position: absolute;
+     top:45%;
+     left:19%;
+}
+
+.magaza3{
+    position: absolute;
+    top: 3%;
+    left: 70%;
+    width:40px;
+}
+.magaza4{
+    position: absolute;
+    top: 3%;
+    left: 82%;
+    width:40px;
+}
+.ib h3{
+    position: absolute;
+    top: 59%;
+    left: 15%;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h6{
+    position:absolute;
+   left: 60%;
+   top: 50%;
+    border: 2px solid black;
+    width: 130px;
+    height: 80px;
+    font-size: 35px; 
+}
+
+.beats{
+    width: 400px;
+    height: 500px;
+    background-color:honeydew; 
+    position: absolute;
+    bottom: 5%;
+    left:61%;
+    border-radius: 10px;  
+}
+.magaza5{
+    position: absolute;
+    top: 3%;
+    left: 70%;
+    width:40px;
+}
+.magaza6{
+    position: absolute;
+    top: 3%;
+    left: 82%;
+    width:40px;
+}
+.ali1{
+    position: absolute;
+    top:10%;
+    left: 28%;
+
+}
+
+.h5 h5{
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+}

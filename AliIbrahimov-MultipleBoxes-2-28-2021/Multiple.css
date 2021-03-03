@@ -1,0 +1,64 @@
+
+body{
+    background: url('bck2.jfif') no-repeat fixed top/cover ;
+}
+
+.first{
+     position: absolute;
+     top: 30%;
+     left: 40%;
+    width: 450px;
+    height: 300px;
+    background-color:yellowgreen;
+    border: 10px solid darkgreen ;
+    transform: skewY(20deg);
+}
+
+h1, h2,h3,h4{
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+    position: absolute;
+    left: 40%;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 30px;
+}
+.second{
+    width: 450px;
+    height: 300px;
+    background-color:skyblue;
+    border: 10px solid  steelblue;
+    position: absolute;
+    /* top: 8%; */
+    left: -20%;
+    top:20%
+
+}
+
+.third{
+    width: 450px;
+    height: 300px;
+    background-color:gold;
+    position: absolute;
+    top: 15%;
+    border: 10px solid chocolate;
+    left: -40%;
+    top:50%
+}
+
+.last{
+    width: 250px;
+    height: 150px;
+    background-color:whitesmoke;
+    position: absolute;
+    
+    left: -45%;
+    border: 1px solid black;
+    top:80%
+}

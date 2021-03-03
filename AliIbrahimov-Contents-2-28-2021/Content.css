@@ -1,0 +1,74 @@
+
+
+.first h1{
+    font-size: 32px;
+}
+
+.first h2  h3{
+    font-size: 20px;
+   
+}
+
+.footer{
+    background-color:grey ;
+    height: 300px;
+    
+}
+
+.footer-content h1,h2,h4,h5,h6{
+    font-size: 15px;
+    /* color:whitesmoke; */
+
+}
+
+.footer-content2{
+    position: absolute;
+    bottom:-85%;
+    right: 60%;
+}
+.footer-content3{
+    position: absolute;
+    bottom:-85%;
+    right: 40%;
+}
+
+.size{
+    width: 50px;
+  position: relative;
+  right: -3300%;
+  
+}
+
+.nike{
+    
+    width: 500px;
+   
+}
+
+
+
+ul{
+    width: auto;
+   
+}
+li{
+display: inline-block;
+padding: 15px 30px;
+}
+
+a{
+    
+    color: black;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    
+    
+
+    
+    
+
+}
+
+a:hover{
+    color:red;
+}

@@ -1,0 +1,213 @@
+body{
+    background: url('skybackground.jfif')  fixed top/cover ;
+}
+.metn{
+    color: white;
+    position: absolute;
+    top: -2%;
+    left: 36%;
+    font-size: 30px;
+}
+.ali{
+    background-color: black;
+}
+.sun{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 18%;
+    border-color:none;
+}
+.mercury{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 38%;
+    border-color:none;
+}
+
+.venus{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 57%;
+    border-color:none;
+}
+
+.earth{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 77%;
+    border-color:none;
+}
+
+.mars{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 97%;
+    border-color:none;
+}
+.jupiter{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 117%;
+    border-color:none;
+}
+.saturn{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 137%;
+    border-color:none;
+}
+.urenus{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 157%;
+    border-color:none;
+}
+.neptune{
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    top: 177%;
+    border-color:none;
+}
+
+.sun1 h2{
+    position: absolute;
+    left: 55%;
+    top: 8%;
+    color: white;
+    font-size: 45px;
+}
+.sun1 p{
+    position: absolute;
+    left: 27.4%;
+    top: 16%;
+    color: white;
+    font-size: 25px;
+}
+.mercury1 h2{
+    position: absolute;
+    left: 55%;
+    top: 33%;
+    color: white;
+    font-size: 45px;
+}
+.mercury1 p{
+    position: absolute;
+    left: 28%;
+    top: 40%;
+    color: white;
+    font-size: 30px;
+}
+
+.venus1 h2{
+    position: absolute;
+    left: 55%;
+    top:52%;
+    color: white;
+    font-size: 45px;
+}
+.venus1 p{
+    position: absolute;
+    left: 27.4%;
+    top: 59%;
+    color: white;
+    font-size: 25px;
+}
+
+.earth1 h2{
+    position: absolute;
+    left: 55%;
+    top:75%;
+    color: white;
+    font-size: 45px;
+}
+.earth1 p{
+    position: absolute;
+    left: 27.4%;
+    top: 82%;
+    color: white;
+    font-size: 25px;
+}
+
+.mars1 h2{
+    position: absolute;
+    left: 55%;
+    top:95%;
+    color: white;
+    font-size: 45px;
+}
+.mars1 p{
+    position: absolute;
+    left: 27.4%;
+    top: 102%;
+    color: white;
+    font-size: 25px;
+}
+
+.jupiter1 h2{
+    position: absolute;
+    left: 55%;
+    top:114%;
+    color: white;
+    font-size: 45px;
+}
+.jupiter1 p{
+    position: absolute;
+    left: 27.4%;
+    top: 120.5%;
+    color: white;
+    font-size: 25px;
+}
+
+.saturn1 h2{
+    position: absolute;
+    left: 55%;
+    top:136%;
+    color: white;
+    font-size: 45px;
+}
+.saturn1 p{
+    position: absolute;
+    left: 27.4%;
+    top: 143%;
+    color: white;
+    font-size: 25px;
+}
+
+.urenus1 h2{
+    position: absolute;
+    left: 55%;
+    top:155%;
+    color: white;
+    font-size: 45px;
+}
+.urenus1 p{
+    position: absolute;
+    left: 27.4%;
+    top: 162%;
+    color: white;
+    font-size: 25px;
+}
+
+.neptune1 h2{
+    position: absolute;
+    left: 55%;
+    top:179%;
+    color: white;
+    font-size: 45px;
+}
+.neptune1 p{
+    position: absolute;
+    left: 27.4%;
+    top: 186%;
+    color: white;
+    font-size: 25px;
+}
