@@ -1,0 +1,142 @@
+@mixin orta($direction){
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+
+}
+*{
+    margin: 0;
+    padding:0;
+    list-style-type: none;
+}
+.sidebar{
+    position: fixed;
+
+    left: -280px;
+    width: 280px;
+    height: 100%;
+    background-color: black;
+    transition: all .5s ease;
+    header{
+        @include orta(row);
+        color:white;
+        font-size: 25px;
+        line-height: 70px;
+        background-color: red;
+         user-select: none;
+         
+    }
+    
+    
+    
+    a{
+        font-size: 40px;
+       display: block;
+        color: white;
+      
+       line-height: 100px;
+      box-sizing: border-box;
+      border-bottom: 1px solid white;
+
+     
+    
+    }
+  
+
+}
+
+a:hover{
+    color: red;
+    transition: ease-out 0.4s;
+}
+
+.fa {
+margin-left: 20px;
+   
+}
+
+ul li:hover a{
+    padding-left: 20px;
+}
+
+.deneme i{
+     margin-left: 6px;
+}
+
+
+
+#check{
+    display: none;
+}
+
+label #btn, label #cancel{
+    position: absolute;
+    cursor: pointer;
+    background: black;
+    border-radius: 3px;
+}
+
+label #btn{
+
+    left: -10px;
+    top:25px;
+    font-size: 35px;
+    color:white;
+padding: 6px 12px;
+transition: all .5s;
+
+}
+
+label #cancel{
+ z-index: 1111;
+    left: -195px;
+    top:17px;
+    font-size: 30px;
+    color:white;
+padding: 4px 9px;
+transition: all .5s ease;
+}
+
+
+#check:checked ~ .sidebar{
+    left: 0;
+}
+
+#check:checked ~ label #btn{
+    left:280px;
+    opacity: 0;
+    pointer-events: none;
+
+
+}
+
+#check:checked ~ label #cancel{
+    left:200px;
+  
+
+
+}
+
+@media only screen and (max-width: 600px) {
+   
+        body{
+            background-color: pink;
+        }
+      
+.sidebar{
+    // width: 300px;
+    // left: -300px;
+    width: 100%;
+    left: -100%;
+
+}
+#check:checked ~ label #cancel{
+    left:350px;
+  
+
+
+}
+
+}
+

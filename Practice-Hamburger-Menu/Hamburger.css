@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.sidebar {
+  position: fixed;
+  left: -280px;
+  width: 280px;
+  height: 100%;
+  background-color: black;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+.sidebar header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-size: 25px;
+  line-height: 70px;
+  background-color: red;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.sidebar a {
+  font-size: 40px;
+  display: block;
+  color: white;
+  line-height: 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 1px solid white;
+}
+
+a:hover {
+  color: red;
+  -webkit-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+
+.fa {
+  margin-left: 20px;
+}
+
+ul li:hover a {
+  padding-left: 20px;
+}
+
+.deneme i {
+  margin-left: 6px;
+}
+
+#check {
+  display: none;
+}
+
+label #btn, label #cancel {
+  position: absolute;
+  cursor: pointer;
+  background: black;
+  border-radius: 3px;
+}
+
+label #btn {
+  left: -10px;
+  top: 25px;
+  font-size: 35px;
+  color: white;
+  padding: 6px 12px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+label #cancel {
+  z-index: 1111;
+  left: -195px;
+  top: 17px;
+  font-size: 30px;
+  color: white;
+  padding: 4px 9px;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+#check:checked ~ .sidebar {
+  left: 0;
+}
+
+#check:checked ~ label #btn {
+  left: 280px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+#check:checked ~ label #cancel {
+  left: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: pink;
+  }
+  .sidebar {
+    width: 100%;
+    left: -100%;
+  }
+  #check:checked ~ label #cancel {
+    left: 350px;
+  }
+}
+/*# sourceMappingURL=Hamburger.css.map */
