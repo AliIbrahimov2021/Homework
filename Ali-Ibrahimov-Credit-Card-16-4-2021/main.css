@@ -1,0 +1,80 @@
+body{
+background: url('bck2.jfif') no-repeat fixed top/cover ;
+}
+
+.qutu1{
+    width: 100%;
+    height: 100vh;
+ 
+    display: flex;
+    
+}
+
+.qutuin{
+    width: 100px;
+    height: 15vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 1%;
+  
+}
+
+.qutuin1{
+    width: 100px;
+    height: 15vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10%;
+  
+}
+
+
+
+
+.qutuin h{
+    margin-bottom: 0%;
+}
+.qutuin h1,h2,h3{
+    font-size: 20px;
+}
+
+.pic{
+    height: 200px;
+   
+    
+}
+.pic1{
+    height: 200px;
+    margin-left: 5%;
+    
+}
+
+
+
+
+.qutuinin{
+    width: 100px;
+    height: 15vh;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 5%;
+    
+
+  
+}
+.qutuinin p{
+    margin-bottom: 15%;
+}
+
+.btn1{
+    height: 50px;
+    width: 150px;
+ margin-top: 10%;
+ margin-left: -12%;
+}
