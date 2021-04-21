@@ -1,0 +1,440 @@
+
+//--------------------------------RESET CODE-------------------------------------------->
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+//--------------------------------RESET CODE-------------------------------------------->
+
+
+
+
+
+
+//<------------------------------NAVBAR------------------------------------------------->
+
+
+
+.navbar-brand{
+    img{
+        width: 100px;
+        height: 80px;
+    }
+}
+.navbar-nav {
+i{
+    font-size: 30px;
+    color: grey;
+
+
+}
+:hover{
+    color: red;
+
+}
+
+a{
+    font-size: 20px;
+    font-weight: 20px;
+  
+}
+
+.ali{
+    @media only screen and (max-width: 600px) {
+        display: none;
+    }
+}
+
+}
+
+//<------------------------------NAVBAR------------------------------------------------->
+
+
+
+
+
+// <---------------------------FIRST PAGE--------------------------------------------->
+
+
+
+.qutu1{
+    height: 95vh;
+    width: 100%;
+    background-color: #edf2fc;
+    display: flex;
+    justify-content: space-between;
+
+
+
+.qutu2{
+    width: 70%;
+    height: 89vh;
+    background-color: #edf2fc;
+
+.abc{
+    margin-left: 35%;
+    margin-top: 25%;
+    height: 350px;
+
+    @media only screen and (max-width: 600px) {
+    height: 250px;
+    margin-left: 20%;
+    margin-top: 10px;
+
+    }
+
+
+}
+    p{
+        color:#606163;
+        // line-height: 22px;
+        margin-top: 0%;
+        margin-left: 18%;
+        font-size: 33px;
+        @media only screen and (max-width: 600px) {
+            font-size: 25px;
+            margin-left: 28%;
+            }
+    }
+    }
+}
+
+
+// 45
+// 80
+// 100
+
+.img-box{
+    width: 45%;  
+    height: 80%;  
+    position: absolute;
+
+    bottom: 0;
+    right: 100px;
+    @media only screen and (max-width: 600px) {
+       .main-img{
+           width: 200px;
+           height: 150px;
+           margin-bottom: -10px;
+           margin-left: -20%;
+        
+       }  
+           
+   
+    .back-img{
+        width: 200px;
+           height: 100px;
+           margin-bottom: -10px;
+           margin-left: -20%;
+    }
+   }
+    img{
+       height: 60%;
+       position: absolute;
+       left: 50%;
+       bottom: 0;
+      transform: translateX(-50%);
+      transition: bottom 1s, left 1s;
+   }
+   
+   
+   
+   }
+
+   .img-box:hover .back-img{
+    bottom:40px
+
+}
+
+.img-box:hover .main-img{
+    left:54%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// <---------------------------FIRST PAGE END--------------------------------------------->
+
+
+
+
+
+// <---------------------------FOUNDERS --------------------------------------------->
+
+.profile-area{
+ padding: 80px 0;
+ background-color: #edf2fc;
+
+ .card{
+     box-shadow: 0 0 30px rgba(0,0,0,0.5);
+     overflow: hidden;
+     border-radius: 15px;
+     width: 100%;
+
+.img1{
+
+img{
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+}
+
+}
+
+
+.img2{
+
+img{
+position: relative;
+display: block;
+margin-left: auto;
+margin-right: auto;
+z-index: 1;
+width: 140px;
+height: 140px;
+border-radius: 50%;
+border:7px solid #fff;
+margin-top: -80px;
+}
+
+
+
+}
+
+}
+
+
+}
+
+
+.card:hover .img2 img{
+    border-color: darkcyan;
+    transition: .7s;
+}
+
+.main-text{
+    padding: 30px 0;
+    text-align: center;
+}
+
+.main-text h2{
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+    margin: 0 0 20px ;
+}
+
+.main-text p{
+    font-size: 16px;
+    padding: 0 35px; 
+
+
+}
+
+.socials{
+    text-align: center;
+    padding-bottom:  20px;
+}
+
+.socials i{
+    font-size:  20px;
+    color: darkcyan;
+    padding:  0 10px;
+}
+
+
+
+
+.salam{
+    font-size: 50px;
+    margin-left: 40%;
+    margin-bottom: 2%;
+    @media only screen and (max-width: 600px) {
+        font-size: 40px;
+        margin-left: 20%;
+    }
+}
+
+// <---------------------------FOUNDERS END --------------------------------------------->
+
+
+// <----------------------------SERVICE------------------------------------------------->
+
+
+
+
+
+
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    padding: 0px;
+    grid-gap: 40px;
+  
+    img{
+        width: 100%;
+        display: block;
+        border-radius: 20px  ;
+    }
+}
+.card{
+    background-color: #1c1b29;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.18);
+}
+.container1{
+    position: relative;
+    clip-path: polygon(0 0,100% 0, 100% 85%, 0 100%);
+}
+
+.container1:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px 20px 0 0;
+    opacity: 0.7;
+}
+.card1>.container1:after{
+    background-image: linear-gradient(
+        135deg,
+        // #0100ec,
+        // #fb36f4
+    );
+}
+.card2>.container1:after{
+    background-image: linear-gradient(
+        135deg,
+        // #2bdce3,
+        // #42ffdb
+    );
+}
+.card3>.container1:after{
+    background-image: linear-gradient(
+        135deg,
+        // #ffab1d,
+        // #f8501c
+    );
+}
+.details{
+    padding: 20px 10px;
+}
+.details>h5{
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0 15px 0;
+}
+.details>p{
+    color: #a0a0a0;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// <----------------------------SERVICE END------------------------------------------------->
+
+
+.qutu55{
+    width: 100%;
+    height: 5vh;
+ 
+    h1{
+        margin-left: 45%;
+        width: 500px;
+        @media only screen and (max-width: 600px) {
+           margin-left: 30%;
+        }
+    }
+}
+
+
+
+
+
+
+
+// ------------------------------BRAND SLIDER------------------------------
+
+
+
+
+
+
+
+
