@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="main.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css"/>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+ <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+ <!------------------------------------------------ NAVBAR ------------------------------------->
+ <div class="bs-example">          
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <!-- navbar-light bg-light -->
+        <a href="#" class="navbar-brand">
+            <img src="logopic.png"  alt="LOGO">
+            
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+     
+
+
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav">
+                      
+      <form >
+<input placeholder="Discover new, articles and more." type="text"  class="inin"  >
+
+      </form>
+
+
+
+            </div>
+            <div class="navbar-nav ml-auto">
+                <img src="moon2021.png" alt="ph" id="icon">
+                <a href="#" class="nav-item nav-link ">Home</a>
+                <a href="Tutors/tutors.html" class="nav-item nav-link">Tutors</a>
+                <a href="Contact/contact.html" class="nav-item nav-link">Contact</a>
+              
+                
+            </div>
+        </div>
+    </nav>
+</div>
+<!------------------------------------------------ NAVBAR ------------------------------------->
+
+
+<!-- DARK THEME -->
+
+
+<script>
+
+
+    var icon= document.getElementById("icon");
+    
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if(document.body.classList.contains("dark-theme")){
+            icon.src ="sun2021.png";
+    } else{
+        icon.src ="moon2021.png";
+    }
+    }
+    
+    
+    
+    </script>
+    
+
+<!-- DARK THEME -->
+
+
+<div class="qutu">
+
+
+<div class="qutu2">
+
+    <div class="qutu2in">
+<h1>
+    Learn React in  <span>30 days </span> <br>
+    with great instructors!
+</h1>
+
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br>
+    sed do eiusmod tempor incididunt ut labore et.
+</p>
+
+<div class="qutuin">
+<button type="button" class="firstbt"> Start Learning</button>
+<button type="button" class="secondbt"> View tutors</button>
+</div>
+
+</div>
+
+<div class="qutu4">
+<img src="man.png" alt="">
+
+<div class="qutu4in">
+
+    <i class="fas fa-user-graduate"></i>
+<h1> <span>250+</span> <br>
+     LESSONS
+</h1>
+
+<h1> <span>30+</span> <br>
+    COURSES
+</h1>
+
+
+<h1> <span>15+</span> <br>
+    TUTORS
+</h1>
+
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<!-- Slider -->
+
+
+  
+<section>
+    <div class="container">
+        <div class="section-title">
+            <h2>Featured this month</h2>
+            <span class="section-separator"></span>
+            <p>ENJOY THE LESSONS WHICH IS GIVEN BY THE MOST PROFESSIONAL EXPERTS!!!</p>
+        </div>
+    </div>
+    <div class="testimonials-carousel-wrap">
+        <div class="listing-carousel-button listing-carousel-button-next"><i class="fa fa-caret-right" style="color: #fff"></i></div>
+        <div class="listing-carousel-button listing-carousel-button-prev"><i class="fa fa-caret-left" style="color: #fff"></i></div>
+        <div class="testimonials-carousel">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="man.png"></div>
+                            <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                            <div class="testimonials-text">
+                                <div class="listing-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <a href="#" class="text-link"></a>
+                                <div class="testimonials-avatar">
+                                    <h3>John Doe</h3>
+                                    <h4>Owner</h4>
+                                </div>
+                            </div>
+                            <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                        </div>
+                    </div>
+
+                    <!--second--->
+                    <div class="swiper-slide">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="woman1-removebg-preview.png"></div>
+                            <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                            <div class="testimonials-text">
+                                <div class="listing-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <a href="#" class="text-link"></a>
+                                <div class="testimonials-avatar">
+                                    <h3>Doe Boe</h3>
+                                    <h4>Director</h4>
+                                </div>
+                            </div>
+                            <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                        </div>
+                    </div>
+                    <!--third-->
+
+                    <div class="swiper-slide">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="woman2-removebg-preview.png"></div>
+                            <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                            <div class="testimonials-text">
+                                <div class="listing-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <a href="#" class="text-link"></a>
+                                <div class="testimonials-avatar">
+                                    <h3>Boe Doe</h3>
+                                    <h4>Developer</h4>
+                                </div>
+                            </div>
+                            <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                        </div>
+                    </div>
+
+                    <!--fourth-->
+                    <div class="swiper-slide">
+                        <div class="testi-item">
+                            <div class="testi-avatar"><img src="man2-removebg-preview.png"></div>
+                            <div class="testimonials-text-before"><i class="fa fa-quote-right"></i></div>
+                            <div class="testimonials-text">
+                                <div class="listing-rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                                <a href="#" class="text-link"></a>
+                                <div class="testimonials-avatar">
+                                    <h3>Doe John</h3>
+                                    <h4>Designer</h4>
+                                </div>
+                            </div>
+                            <div class="testimonials-text-after"><i class="fa fa-quote-left"></i></div> 
+                        </div>
+                    </div>
+                    <!--testi end-->
+
+                </div>
+            </div>
+        </div>
+
+        <div class="tc-pagination"></div>
+    </div>
+</section>
+
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+  <script src="ali.js"></script>
+
+
+
+
+
+
+<!-- Girl Box -->
+
+
+<div class="qutu10">
+
+<img src="woman2021.png" alt="">
+
+<div class="qutu10in">
+<h1> You can Learn Anything.</h1>
+<p>  "When I got out of university, I couldn't get a job. But  <br> 
+    now, I have a job and I am in love with computer <br>
+    science because of Academy."              
+</p>
+
+<h2>Aubree Joyce</h2>
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="qutu12">
+
+<h1>CSS3</h1>
+<button>View More</button>
+
+
+
+</div>
+
+
+<div class="qutu16">
+
+
+<div class="box1">
+<img src="css-removebg-preview.png" alt="">
+
+
+<div class="box1in">
+
+<h1>30 Useful CSS Examples For <br>
+    Logically Creative Minds                    </h1>
+
+<h2>Jane Smith</h2>
+<button type="button"> CSS3</button>
+
+</div>
+</div>
+
+
+<div class="box2">
+    <img src="css-removebg-preview.png" alt="">
+
+
+    <div class="box1in">
+    
+    <h1>30 Useful CSS Examples For <br>
+        Logically Creative Minds                    </h1>
+    
+    <h2>Jane Smith</h2>
+    <button type="button"> CSS3</button>
+    
+    </div>
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+<div class="qutu12">
+
+    <h1>GATSBY</h1>
+    <button>View More</button>
+    
+    
+    
+    </div>
+    
+    
+    <div class="qutu16">
+    
+    
+    <div class="box1">
+    <img src="gatsby-removebg-preview.png" alt="">
+    
+    
+    <div class="box1in">
+    
+    <h1>Why Gatsby is better with <br>
+        JavaScript                   </h1>
+    
+    <h2>John Doe</h2>
+    <button type="button"> Gatsby</button>
+    
+    </div>
+    </div>
+    
+    
+    <div class="box2">
+        <img src="gatsby-removebg-preview.png" alt="">
+    
+    
+        <div class="box1in">
+        
+        <h1>Gatsby's First Survey Goes <br>
+            Command Line                   </h1>
+        
+        <h2>Alan taylor</h2>
+        <button type="button"> Gatsby</button>
+        
+        </div>
+    
+    </div>
+    
+    
+    
+    </div>
+
+    
+
+    
+<div class="qutu12">
+
+    <h1>JavaScript</h1>
+    <button>View More</button>
+    
+    
+    
+    </div>
+    
+    
+    <div class="qutu16">
+    
+    
+    <div class="box1">
+    <img src="js-removebg-preview.png" alt="">
+    
+    
+    <div class="box1in">
+    
+    <h1>Creating Secure Password <br>
+        Flows With NodeJS And MySQL                  </h1>
+    
+    <h2>Mike Smith</h2>
+    <button type="button"> JavaScript</button>
+    
+    </div>
+    </div>
+    
+    
+    <div class="box2">
+        <img src="js-removebg-preview.png" alt="">
+    
+    
+        <div class="box1in">
+        
+        <h1>How To Build A Simple <br>
+            Cryptocurrency Blockchain In Node.js                   </h1>
+        
+        <h2>Alex Hilton</h2>
+        <button type="button"> JavaScript</button>
+        
+        </div>
+    
+    </div>
+    
+    
+    
+    </div>
+
+    
+    
+<div class="qutu12">
+
+    <h1>React</h1>
+    <button>View More</button>
+    
+    
+    
+    </div>
+    
+    
+    <div class="qutu16">
+    
+    
+    <div class="box1">
+    <img src="react-removebg-preview.png" alt="">
+    
+    
+    <div class="box1in">
+    
+    <h1>Implementing Infinite Scroll And <br>
+        Image Lazy Loading In React                   </h1>
+    
+    <h2>Nicolia Ansel</h2>
+    <button type="button"> React</button>
+    
+    </div>
+    </div>
+    
+    
+    <div class="box2">
+        <img src="react-removebg-preview.png" alt="">
+    
+    
+        <div class="box1in">
+        
+        <h1>React Hooks Tutorial for <br>
+            Beginners                  </h1>
+        
+        <h2>Harry Potter</h2>
+        <button type="button"> React</button>
+        
+        </div>
+    
+    </div>
+    
+    
+    
+    </div>
+    
+
+
+<div class="qutu53">
+
+<h1> Subscribe to our newsletter!</h1>
+<h2> We'll send you the best of our blog just once a month. We <br>
+promise</h2>
+
+<input type="email"  placeholder="Email Address">
+
+<button type="button"> Subscribe</button>
+</div>
+
+
+
+<!-- footer -->
+<div class="divfinal">
+
+    <div class="qutu11">
+ <h1>Address</h1>
+ <i class="fas fa-map-marker-alt"> FlexiBlog, Chicago, USA 2018</i>
+ <i class="fas fa-phone-square-alt"> +846677028028</i>
+ <div class="qutuinin">
+    <i class="fab fa-facebook-square"></i>
+    <i class="fab fa-twitter-square"></i>
+    <i class="fab fa-linkedin"></i>
+ </div>
+ 
+ 
+    </div>
+ 
+ 
+ 
+ <div class="qutu22">
+ <h1>Help & Information</h1>
+ <a href="#">Help & Contact Us</a>
+ <a href="#">Tutors</a>
+ <a href="#">Books</a>
+ <a href="#">Terms & Conditions</a>
+ 
+ </div>
+ 
+ <div class="qutu33">
+    <h1>About us</h1>
+    <a href="#">About Us</a>
+    <a href="#">What We Do</a>
+    <a href="#">FAQ Page</a>
+    <a href="#">Contact Us</a>
+    
+    </div>
+    
+ 
+ 
+ 
+ 
+ </div>
+
+
+
+
+
+
+</div>
+
+
+
+
+</body>
+</html>
