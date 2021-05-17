@@ -1,0 +1,63 @@
+.ali {
+  background-color: green;
+  height: 100px;
+  border: 2px solid black;
+  margin-bottom: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 600px) {
+  .ali {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 200px;
+  }
+}
+
+.ali .in {
+  height: 50px;
+  width: 300px;
+  margin-top: 1%;
+  border: 5px;
+  padding-left: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+  .ali .in {
+    margin-left: -3%;
+    height: 40px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ali .in {
+    width: 250px;
+    margin-left: 10%;
+  }
+}
+
+.ali h1 {
+  font-size: 25px;
+  margin-top: 1%;
+}
+
+@media only screen and (max-width: 600px) {
+  .ali h1 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .ali h1 {
+    font-size: 20px;
+    margin-left: 25%;
+  }
+}
+/*# sourceMappingURL=mains.css.map */
