@@ -1,0 +1,349 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+
+.carousel-caption {
+  bottom: 220px;
+}
+
+.carousel-caption h5 {
+  font-size: 55px;
+  color: orange;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  font-weight: bold;
+  font-family: merienda;
+}
+
+.carousel-caption p {
+  width: 60%;
+  color: orange;
+  margin: auto;
+  font-size: 25px;
+  line-height: 1.9;
+  font-family: poppins;
+  font-weight: bold;
+}
+
+.carousel-caption a {
+  text-transform: uppercase;
+  background: orange;
+  border-radius: 50px;
+  padding: 10px 30px;
+  display: inline-block;
+  color: #fff;
+  margin-top: 15px;
+}
+
+/* Hover */
+.carousel-caption a:hover {
+  color: orange;
+  background-color: #fff;
+  text-decoration: none;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+
+/* Hover */
+.navbar-nav a {
+  font-family: poppins;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* Hover */
+.navbar-nav a :hover {
+  color: orange;
+}
+
+/* Hover */
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  padding: .2rem 1rem;
+}
+
+.nav-link.active, .nav-link:focus {
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+  background: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+.w-100 {
+  height: 100vh;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar-nav.ml-auto {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .navbar-nav a {
+    font-size: 14px;
+    font-weight: normal;
+  }
+}
+
+.qutu1 {
+  background-color: #272625;
+  height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .qutu1 {
+    height: 200vh;
+  }
+}
+
+.ali1 {
+  margin-top: 100px;
+  height: 17vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ali1 .wr {
+  font-size: 55px;
+  color: white;
+  font-weight: bold;
+}
+
+.ali1 .wr2 {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+.ali1 i {
+  margin-top: 10px;
+  font-size: 50px;
+  color: white;
+}
+
+.ali1 span {
+  color: orange;
+}
+
+.ali {
+  margin-top: 100px;
+  height: 400px;
+}
+
+@media only screen and (min-width: 600px) {
+  .ali {
+    height: 600px;
+  }
+}
+
+.ali .skk {
+  width: 103%;
+  height: 80%;
+}
+
+.ali .first {
+  font-size: 35px;
+  color: white;
+  font-weight: bold;
+}
+
+.ali .ff {
+  font-size: 18px;
+  margin-top: 5%;
+  color: gainsboro;
+  line-height: 30px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .ali .ff {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .ali .ff {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .ali .ff {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .ali .ff {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 200px) {
+  .ali .ff {
+    font-size: 8px;
+  }
+}
+
+.ali .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+.ali .links .aa {
+  font-size: 20px;
+  color: orange;
+  font-weight: bold;
+  border-right: 1px solid white;
+}
+
+@media only screen and (max-width: 1100px) {
+  .ali .links .aa {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .ali .links .aa {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .ali .links .aa {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .ali .links .aa {
+    font-size: 10px;
+  }
+}
+
+.ali .links :hover {
+  text-decoration: none;
+  color: white;
+}
+
+.ali .cn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.ali .cn .bt {
+  height: 45px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+}
+
+.ali .cn :hover {
+  color: orange;
+  background-color: white;
+  -webkit-transition-delay: 0.1s;
+          transition-delay: 0.1s;
+}
+/*# sourceMappingURL=main.css.map */
