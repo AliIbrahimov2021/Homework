@@ -1,0 +1,824 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h5 {
+	font-size: 55px;
+    color: orange;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+    font-weight: bold;
+	font-family: merienda;
+}
+.carousel-caption p {
+	width: 60%;
+    color:orange;
+	margin: auto;
+	font-size: 25px;
+	line-height: 1.9;
+	font-family: poppins;
+    font-weight: bold;
+}
+.carousel-caption a {
+	text-transform: uppercase;
+	background: orange;
+    border-radius: 50px;
+	padding: 10px 30px;
+	display: inline-block;
+	color: #fff;
+	margin-top: 15px;
+    
+}
+/* Hover */
+.carousel-caption  a:hover {
+
+color: orange;
+background-color: #fff;
+text-decoration: none;
+transition-delay: 0.1s;
+
+}
+/* Hover */
+
+
+.navbar-nav a {
+	font-family: poppins;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+    margin-left: 10px;
+}
+
+/* Hover */
+
+.navbar-nav a :hover {
+color: orange;
+
+}
+
+
+/* Hover */
+
+.navbar-light .navbar-brand {
+	color: #fff;
+	font-size: 25px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+.w-100 {
+	height: 100vh;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
+
+
+// ADDED LATER
+body{
+	background-color: #272625;
+}
+
+
+
+
+
+
+
+.qutu1{
+	background-color: #272625;
+	height: 100vh; //70
+	@media only screen and (max-width: 600px) {  //min
+		height: 50vh; //200
+	  }
+}
+
+
+
+.ali1{
+	// background-color: aqua;
+	margin-top: 100px;
+	
+    height: 17vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .wr{
+        font-size: 55px;
+        color: white;
+        font-weight: bold;
+           
+    
+    
+    
+    }
+
+
+
+    .wr2{
+        font-size: 25px;
+        color: white;
+        font-weight: bold;
+    
+    
+    }
+
+    i{
+        // margin-left: 49%;
+        margin-top: 10px;
+        font-size: 50px;
+        color: white;
+    }
+    span{
+        color:orange;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+.ali{
+	//background-color: gray;
+	margin-top:100px;
+	height: 400px;
+	@media only screen and (min-width: 600px) {
+		height: 600px;
+	  }
+	
+.skk{
+	width: 103%;
+	height: 80%;
+}
+
+.first{
+	font-size: 35px;
+	color: white;
+	font-weight: bold;
+}
+
+.ff{
+	font-size: 18px;
+	margin-top: 5%;
+	color: gainsboro;
+	line-height: 30px;
+	@media only screen and (min-width: 1000px) {
+		font-size: 18px;
+	  }
+
+	  @media only screen and (max-width: 900px) {
+		font-size: 15px;
+	  }
+	  @media only screen and (max-width: 400px) {
+		font-size: 10px;
+	  }
+	  @media only screen and (max-width: 300px) {
+		font-size: 10px;
+
+	  }
+	  @media only screen and (max-width: 200px) {
+		font-size: 8px;
+	  }
+}
+
+.links{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 5%;
+.aa{
+	font-size: 20px;
+	color: orange;
+	font-weight: bold;
+	border-right: 1px solid white;
+	@media only screen and (max-width: 1100px) {
+		font-size: 15px;
+	  }
+	  @media only screen and (max-width: 900px) {
+		font-size: 15px;
+	  }
+	  @media only screen and (max-width: 700px) {
+		font-size: 10px;
+	  }
+	  @media only screen and (max-width: 400px) {
+		font-size: 10px;
+	  }
+	
+}
+:hover{
+	text-decoration: none;
+	color: white;
+}
+}
+
+.cn{
+display: flex;
+justify-content: center;
+// @media only screen and (min-width: 600px) {
+// 	margin-top: 5%;
+//   }
+	.bt{
+      height: 45px;
+	  border-radius:50px;
+	  border: none;
+	  outline: none;
+	  background-color: orange;
+	  color: white;
+	  font-weight: bold;
+	
+	}
+	:hover{
+		color: orange;
+		background-color: white;
+		transition-delay: 0.1s;
+	}
+}
+
+
+}
+
+
+
+
+
+
+//PARALLEX
+
+
+.ali2020{
+	height: 50vh;
+	//background-color: aqua;
+	display: flex;
+	justify-content: space-evenly;
+
+
+	.as1{
+		font-weight: bold;
+		font-size: 45px;
+
+		
+
+	}
+	
+	
+	.as2{
+		font-size: 30px;
+	color:orange;
+	font-weight: bold;
+	}
+
+	
+.firstp{
+    font-size: 17px;
+    color: grey;
+	line-height: 20px;
+
+	
+	
+	
+}
+
+.secondp{
+    font-size: 17px;
+    color: grey;
+	line-height: 20px;
+	
+
+	
+
+}
+
+.ll{
+    display: flex;
+ justify-content: space-evenly;
+
+#a111 :hover{
+	 color: aqua;
+	 transition-delay: 0.1s;
+ }
+
+ #a222 :hover{
+	color: darkblue;
+	transition-delay: 0.1s;
+
+}
+
+#a333 :hover{
+color: aqua;
+transition-delay: 0.1s;
+
+}
+
+#a444 :hover{
+	color: palevioletred;
+	transition-delay: 0.1s;
+
+}
+
+#a555 :hover{
+	color: aquamarine;
+	transition-delay: 0.1s;
+
+}
+
+#a666 :hover{
+	color: red;
+	transition-delay: 0.1s;
+
+}
+
+
+
+
+
+
+
+
+}
+
+.ii1{
+    font-size: 55px;
+    color: orange;
+
+
+
+}
+
+.pp1{
+    border-radius: 50%;
+    border: 10px solid orange;
+
+
+}
+
+	.asasa{
+		display: flex;
+		flex-direction: column;
+		height:90%;
+		//background-color: brown;
+		justify-content: space-evenly;
+		// @media only screen and (max-width: 350px) {
+			
+		// }
+	}
+}
+
+.sections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 15px;
+}
+
+
+
+.sec1{
+    background: url(a22.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+.prallax{
+    background-position: top center;
+}
+
+
+
+
+
+
+
+
+// TEZE
+
+
+
+.flip-card {
+	background-color: transparent;
+	width: 300px;
+	height: 300px;
+	perspective: 1000px;
+	margin-top: 10%;
+  
+	
+  }
+  
+  .flip-card-inner {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	transition: transform 0.6s;
+	transform-style: preserve-3d;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+	transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+	background-color: #bbb;
+	color: black;
+	background-image: url( photoNo1.jpg);
+	width:300px;
+	height:300px;
+  }
+  
+  .flip-card-back {
+	background-color: #2980b9;
+	color: white;
+	transform: rotateY(180deg);
+	width:300px; 
+	height:300px;
+	background-image: url( photoNo1.jpg);
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+   .salam{
+	   margin-left: 5%;
+	   margin-bottom: 15%;
+   }
+  }
+  
+  @media only screen and (max-width: 450px) {
+	  .salam{
+		  margin-left: 10%;
+		  margin-bottom: 15%;
+	  }
+	 }
+	 @media only screen and (max-width: 550px) {
+	  .salam{
+		  margin-left: 30%;
+		  margin-bottom: 15%;
+	  }
+	 }
+  
+  
+	 @media only screen and (max-width: 770px) {
+	  .ppp1{
+		  font-size: 10px;
+		
+	  }
+	  .flip-card-back{
+		  width: 200px;
+		  height: 200px;
+	  }
+  
+  
+	  .flip-card-front{
+		  width: 200px;
+		  height: 200px;
+	  }
+	  
+  .flip-card {
+	  background-color: transparent;
+	  width: 200px;
+	  height: 200px;
+  
+	
+	  
+	 }
+  }
+  
+  
+  .yazi1{
+	  color: whitesmoke;
+	  font-size: 20px;
+	  margin-top: 10%;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  .ppp1{
+	  font-size: 10px;
+	
+  }
+	 }
+	 
+  
+	 .bir1{
+		 color: yellow;
+		 font-size: 25px;
+	 }
+  
+	 .qutu2021 i{
+		 color: yellow;
+		 font-size: 45px;
+	 }
+  
+	 .qutu2021{
+		 display: flex;
+		 flex-direction: column;
+		 justify-content: center;
+		 height: 100%;
+	 }
+
+
+
+
+
+
+
+
+     
+	 
+/* Slideshow container */
+.slideshow-container {
+	position: relative;
+	background: #f1f1f1f1;
+  }
+  
+  /* Slides */
+  .mySlides {
+	display: none;
+	padding: 80px;
+	text-align: center;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -30px;
+	padding: 16px;
+	color: orange;
+	font-weight: bold;
+	font-size: 20px;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	position: absolute;
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+	background-color: orange;
+	color: white;
+  }
+  
+  /* The dot/bullet/indicator container */
+  .dot-container {
+	  text-align: center;
+	  padding: 20px;
+	  background: orange;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  
+  /* Add a background color to the active dot/circle */
+  .active1, .dot:hover {
+	  
+	background-color: #717171;
+  }
+  
+  /* Add an italic font style to all quotes */
+  q {font-style: italic;}
+  
+  /* Add a blue color to the author */
+  .author {color: cornflowerblue;}
+  
+  .qutu566{
+	  display: flex;
+	  height: 100%;
+	  
+	  justify-content: center;
+  }
+  
+  .photo53{
+	  width: 200px;
+	  height: 200px;
+  }
+  
+  
+  
+  
+  .mySlides{
+	background: url(a22.jpg) center center no-repeat;
+	background-size: cover;
+	margin-top: 5%;
+  }
+  
+
+  
+  .ad{
+	  color:orange;
+  }
+
+
+ 
+
+// sonraki
+
+
+
+
+.zoom {
+	padding: 50px;
+   background-image: url(a22.jpg);
+	transition: transform .2s;
+	background: url(a22.jpg) ;
+	background-size: cover;
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+  }
+  
+  .zoom:hover {
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.1); 
+  }
+  
+  
+  .wro{
+	  font-size: 20px;
+	  color: orange;
+  }
+  
+  .wro2{
+	  font-size: 15px;
+	  color:whitesmoke;
+	  font-weight: lighter;
+	  line-height: 25px;
+  }
+  
+  
+  .sel{
+	  width: 100%;
+	
+	  display: flex;
+	  flex-direction: column;
+	  align-items: center;
+	  justify-content: center;
+	  margin-top: 2%;
+  }
+  
+  .wako{
+	  margin-top: 10%;
+	 
+  }
+
+
+
+
+
+
+  //slider
+
+
+
+  .hey{
+	  width: 100%;
+	 // background-color: #2980b9;
+	  height: 5vh;
+	  margin-top: 5%;
+
+h1{
+	font-size: 20px;
+	color: white;
+
+}
+h2{
+	font-size: 20px;
+	color: white;
+}
+
+.flop{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 5%;
+
+}
+
+
+  }
